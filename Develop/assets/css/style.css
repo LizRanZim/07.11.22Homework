@@ -1,0 +1,147 @@
+/* Universal element so there is no padding or margin on page content */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* sets the background color for the page */
+body {
+    background-color: #d9dcd6;
+}
+/* sets the styles for the header content */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* sets the style for the h1 tag */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* changes the color of the letters seo in the h1 tag */
+.seo {
+    color: #d9dcd6;
+}
+/* sets the style and font for the site navigation */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* sets the style for all h2 tags in doc except footer */
+h2 {
+    margin-bottom: 20px;
+font-size: 36px;
+}
+
+/* sets the position for the navigation links and any other lists on the page*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+    float: right;
+}
+/* sets the link color for all anchor text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* sets the default font size for the paragraph content */
+p {
+    font-size: 16px;
+}
+
+/* sets margin for the hero image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
+    object-position: 10% 50%;
+      }
+
+/* styles the way the content displays for the main block of content */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* styles the horizontal block sections which include search engine optimization, online reputation management, and social media marketing*/
+
+.horizontal-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.horizontal-block img {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* styles the content for the benefits section which includes lead generation, brand awareness and cost management text and images */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-style {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-style h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-style img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* styles the content for the footer */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+   }
+
+#footertext{
+    font-size: 20px;
+    font-weight: bold;
+}
