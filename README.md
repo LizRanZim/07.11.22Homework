@@ -9,7 +9,7 @@ SO THAT our own site is optimized for search engines
 ```
 
 ## Acceptance Criteria
-
+git
 ```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
@@ -28,7 +28,7 @@ THEN I find a concise, descriptive title
 
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/01-html-css-git-homework-demo.png)
 
 ## Link to deployed application
 

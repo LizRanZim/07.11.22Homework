@@ -4,10 +4,12 @@
     padding: 0;
     margin: 0;
 }
+
 /* sets the background color for the page */
 body {
     background-color: #d9dcd6;
 }
+
 /* sets the styles for the header content */
 header {
     padding: 20px;
@@ -15,15 +17,18 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* sets the style for the h1 tag */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* changes the color of the letters seo in the h1 tag */
 .seo {
     color: #d9dcd6;
 }
+
 /* sets the style and font for the site navigation */
 nav {
     padding-top: 15px;
@@ -36,7 +41,7 @@ nav {
 /* sets the style for all h2 tags in doc except footer */
 h2 {
     margin-bottom: 20px;
-font-size: 36px;
+    font-size: 36px;
 }
 
 /* sets the position for the navigation links and any other lists on the page*/
@@ -44,29 +49,34 @@ font-size: 36px;
 ul {
     list-style: none;
     display: flex;
-    /* flex-direction: column; */
+
 }
 
-  ul li:first-child {
+
+ul li:first-child {
     order: 3;
-  }
-  ul li:nth-child(2) {
+}
+
+ul li:nth-child(2) {
     order: 4;
-  }
-  ul li:nth-child(3) {
+}
+
+ul li:nth-child(3) {
     order: 5;
-  }
-  
+}
+
 
 li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* sets the link color for all anchor text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /* sets the default font size for the paragraph content */
 p {
     font-size: 16px;
@@ -79,7 +89,7 @@ p {
     margin-bottom: 25px;
     object-fit: cover;
     object-position: 10% 50%;
-      }
+}
 
 /* styles the way the content displays for the main block of content */
 
@@ -151,9 +161,9 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-   }
+}
 
-#footertext{
+#footertext {
     font-size: 20px;
     font-weight: bold;
 }
